@@ -8,7 +8,7 @@ function EditorComponent() {
     const { openFiles } = useFileSystem()
     const { minHeightReached } = useResponsive()
 
-    if (openFiles.length <= 0) {
+    if (!openFiles || openFiles.length === 0) {
         return (
             <div className="flex h-full w-full items-center justify-center">
                 <h1 className="text-xl text-white">
