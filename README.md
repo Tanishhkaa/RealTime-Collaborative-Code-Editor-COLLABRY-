@@ -1,5 +1,5 @@
 ![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)
-
+<img width="1431" height="480" alt="Image" src="https://github.com/user-attachments/assets/064ef2d1-e748-48fa-9e6b-a0655d6b0cd5" />
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
 ![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
