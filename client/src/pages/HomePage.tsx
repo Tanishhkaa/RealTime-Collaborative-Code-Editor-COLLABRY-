@@ -36,7 +36,7 @@ function HomePage() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 opacity-75 blur-xl"></div>
             <img
               src={illustration}
-              alt="Code Sync Illustration"
+              alt="Collabry Illustration"
               className="relative mx-auto w-full max-w-2xl animate-float"
             />
           </div>
