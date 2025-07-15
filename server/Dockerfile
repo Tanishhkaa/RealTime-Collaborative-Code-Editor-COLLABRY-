@@ -5,12 +5,10 @@ WORKDIR /build
 
 # Copy package files and install dependencies
 COPY package*.json ./
-
 RUN npm ci
 
 # Copy the rest of the source code and build the project
 COPY . .
-
 RUN npm run build
 RUN npm prune --omit=dev
 
@@ -19,13 +17,12 @@ FROM node:18-alpine AS runner
 
 WORKDIR /app
 
-# Copy the `dist` folder from the builder stage
+# Copy build output and dependencies
 COPY --from=builder /build/dist dist/
-COPY --from=builder /build/public public/
 COPY --from=builder /build/node_modules /node_modules
-COPY --from=builder /build/package*.json .
+COPY --from=builder /build/package*.json ./
 
-# Optional Expose a port
+# Expose the backend port
 EXPOSE 3000
 
 # Start the server
