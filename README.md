@@ -37,6 +37,11 @@ A collaborative, real-time code editor where users can seamlessly code together.
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+
+## 🚀 Live Preview
+
+You can view the live preview of the project [here](https://colllabry.netlify.app/)
+
 ## ⚙️ Installation
 
 ### Method 1: Manual Installation
