@@ -2,6 +2,7 @@ import { Socket } from "socket.io"
 
 type SocketId = string
 
+// enum listing all the custom socket events used in the app
 enum SocketEvent {
 	JOIN_REQUEST = "join-request",
 	JOIN_ACCEPTED = "join-accepted",
@@ -28,8 +29,10 @@ enum SocketEvent {
 	DRAWING_UPDATE = "drawing-update",
 }
 
+// Interface for components that depend on socket.io connection
 interface SocketContext {
 	socket: Socket
 }
 
+// Export all relevant types and enums for use in other files
 export { SocketEvent, SocketContext, SocketId }
