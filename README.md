@@ -99,10 +99,6 @@ We welcome contributions to make Collabry even better! Follow the [contribution 
 
 If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development.
 
-## 🧾 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🌟 Appreciation for Resources
 
 Special thanks to:
